@@ -1,0 +1,73 @@
+body {
+background-color: #FFF;
+font-family: Arial;
+}
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+/*    display: block;
+    position: relative;
+    margin-top: 22.5%;*/
+    margin-top: 21.9%;
+    margin-left: 34.9%;
+    position: absolute;
+    z-index: 20;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #6793cc;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    margin-left: 50%;
+    text-align:center;
+}
+
+.sidenav2 {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #6793cc;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    margin-left: 0%;
+    text-align:center;
+}
+
+.one {
+  -o-transform: translateX(100px);
+  -ms-transform: translateX(100px);
+  -moz-transform: translateX(100px);
+  -webkit-transform: translateX(100px);
+  transform: translateX(100%);
+   -o-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.two {
+  -o-transform: translateX(100px);
+  -ms-transform: translateX(100px);
+  -moz-transform: translateX(100px);
+  -webkit-transform: translateX(100px);
+  transform: translateX(-100%);
+   -o-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
